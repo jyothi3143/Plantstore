@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}body{
+    margin: 0%;
+}
+header{
+   
+    position: sticky;
+    z-index: 2;
+    top:0%;
+    background-color: white;
+}
+nav img{
+    width:30%;
+}
+ li a{
+ 
+ color:black;
+ animation-duration: 0.5s;
+ padding-right: 30px !important;
+}
+ li a:hover{
+    
+    color: green !important;
+   font-weight: 600;
+    
+}
+
+ nav i{
+    font-size: 25px;
+    color:green;
+     margin: 5px;
+}
+.sess1{
+    background-color: rgb(47, 199, 47);
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+   
+}
+.sess1 a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+
+   
+}
+.sess1 .side{
+    display: inline;
+    padding-left: 30px;
+}
+.sess1 a:hover
+{
+    color:white;
+}
+.dro li {
+   background-color:green;
+}
+
+
+.dro a:hover {
+    background-color: rgb(190, 21, 21);
+    color: white !important;
+ }
+ .carousel-item img{
+   width: fit-content;
+   height:500px;
+ }
+ .sess2 img{
+    width:100%;
+    border-radius: 20px;
+    height:80px;
+    transition-duration: 0.5s;
+ }
+ .sess2 img:hover{
+    width:110%;
+    height: 90px;
+   
+ }
+ .sess2 figcaption{
+    font-size: 12px;
+    text-align: center;
+ }
+ .sess3 img{
+    width:50%;
+ }
+ .sess3 h3{
+   color: rgb(190, 21, 21);
+   padding-top: 20px;
+ }
+ .sess3{
+    text-align: center;
+ }
+ .sess3 h5{
+    padding-top: 30px;
+ }
+ .sess3 figcaption{
+    font-weight:700 ;
+    padding: 10px;
+ }
+ .main,.side{
+    position: relative;
+
+ }
+ .side .pho img{
+    width:100%;
+    height:300px;
+    padding: 10PX;
+ }
+ 
+ .photo img{
+    width:100%;
+    height:450px;
+    padding: 10PX;
+ }
+ .content{
+
+    position: absolute;
+    z-index:1;
+    top:0%;
+    padding: 30px;
+ }
+ .main button{
+    width:150px;
+    padding:10px;
+    margin: 10px;
+ }
+ .main h1,h6{
+    color: rgb(170, 19, 19);
+    padding: 10px;
+ }
+ .side h4,h6{
+    color: rgb(14, 73, 14);
+   
+
+ }
+ .side .content{
+    width:50%;
+ }
+ .help i{
+    font-size: 60px;
+    font-weight: 500;
+   }
+ .help{
+    background-color: rgb(233, 230, 230);
+    height: 180px;
+    margin: 30px;
+    text-align: center;
+ }
+ .help figcaption{
+     font-size: 20px;
+ }
+ .help figure i{
+   text-align: center;
+ }
+ .sess5 img{
+   border-radius: 120px;
+   height: 200px;
+ }
+ .sess5,.sess5 figcaption{
+   text-align: center;
+   color: rgb(14, 73, 14);
+ }
+ .sess5 h3{
+   padding-top: 20px;
+   color:  rgb(170, 19, 19);
+ }
+ .sess6{
+   padding-bottom: 35px;
+ }
+ .sess6 img{
+   height: 200px;
+ }
+ .sess6 p{
+   color: rgb(170, 19, 19) ;
+ }
+ .sess6 h6,p{
+   text-align: center;
+ }
+
+ .mains{
+   width: 100%;
+   position: relative;
+   height: 400px;
+ }
+ .last ,.final{
+    width:100%;
+    height: 400px;
+   
+    color: white;
+    overflow: hidden;
+   
+ }
+ footer h6{
+   color: white;
+  
+ }
+ footer img{
+   width:100%;
+   height: 400px;
+ }
+ .final{
+   background-color: rgba(0, 0, 0, 0.582);
+   position: absolute;
+   z-index: 1;
+   top: 0;
+ }
+ footer i{
+   padding-right: 10px;
+ }
+ footer{
+   text-align: center;
+ }
